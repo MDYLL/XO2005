@@ -1,0 +1,34 @@
+#thepole{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 60ch;
+    height: 60ch;
+    background: lightslategrey;
+}
+#restart{
+    margin-right: auto;
+    margin-left: auto;
+    width: 60ch;
+    height: 20ch;
+}
+#restartButton{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.pole{
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    font-size: 10em;
+    font-weight: bold;
+    font-family: monospace;
+    border-style: solid;
+    border-color: darkgrey;
+
+}
